@@ -6,8 +6,8 @@ puts "----------"
 
 # UPDATE TABLE
 
-@store1 = Store.find(id: 1)
-@store2 = Store.find(id: 2)
+@store1 = Store.find_by(id: 1)
+@store2 = Store.find_by(id: 2)
 puts @store1
 
 @store1.name = "ChinaTOwn"
